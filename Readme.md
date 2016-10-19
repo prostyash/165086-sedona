@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Саша Простякова](https://up.htmlacademy.ru/htmlcss/15/user/165086).
+* Студент: [Александра Простякова](https://up.htmlacademy.ru/htmlcss/15/user/165086).
 * Наставник: [Роман Коробейников](https://up.htmlacademy.ru/htmlcss/15/user/245335).
 
 ---
