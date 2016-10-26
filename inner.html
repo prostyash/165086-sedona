@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <ul>
+                    <li> <a href="#">Информация</a> </li>
+                    <li> <a href="#">Фото и видео</a> </li>
+                    <li> <a href="#">Карта штата</a> </li>
+                    <li> <a href="#">Гостиницы</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="filter-items">
+            <div class="filter-items-left">
+                <h2 class="filter-item-left-title">Инфраструктура</h2>
+                <label>
+                    <input type="checkbox" checked name="swimming-pool">Бассейн
+                </label>
+                <h2 class="filter-item-left-title">Парковка</h2>
+                <label>
+                    <input type="checkbox" checked name="parking">Парковка
+                </label>
+                <h2 class="filter-item-left-title">Wi-Fi</h2>
+                <label>
+                    <input type="checkbox" checked name="Wi-Fi"> Wi-Fi
+                </label>
+                <h2 class="filter-item-left-title">Гостиница</h2>
+                <label>
+                    <input type="checkbox" checked name="Guest-house">Гостиница
+                </label>
+                <h2 class="filter-items-left-title">Мотель</h2>
+                <label>
+                    <input type="checkbox" checked name="Apartaments">Апартаменты
+                </label>
+            </div>
+            <div class="filter-items-right">
+                <h2 class="filter-items-right-title">Стоимость в сутки(P)</h2>
+                <div class="filterline-average">
+                    <div class="filter-average-from">От 0</div>
+                    <div class="filter-average-to">До 3000</div>
+                </div>
+                <div class="filterline-items">
+                    <div class="filterline">
+                    </div>
+                    <div class="cost-slide-one">
+                    </div>
+                    <div class="filterline-selected-range">
+                    </div>
+                    <div class="cost-slide-two">
+                    </div>
+                </div>
+                <button class="show-hostels" type="submit">Показать</button>
+            </div>
+        </div>
+        <div class="hotel-filters">
+            <h2 class="found-title">Найдено:3</h2>
+            <h3 class="hotels-sort">Сортировка:</h3>
+            <a href="#">По цене</a>
+            <a href="#">По типу</a>
+            <a href="#">По рейтингу</a>
+            <div class="hotels-items">
+                <div class="sort-icons">
+                    <img src="img/sedona-sort-png" width="20" height="20">
+                </div>
+            </div>
+            <div class="hotels-block-one">
+                <div class="hotels-block-left">
+                    <img src="img/sedona-sort-png" width="20" height="20">
+                </div>
+                <div class="hotels-middle-block">
+                    <h2 class="hotel-one-title">Amara resolt & Spa</h2>
+                    <span class="hotels-description">Гостиница</span>
+                    <span class="hotels-price">От 3500 р.</span>
+                    <a class="about-hotel-btn">Подробнее</a>
+                    <a class="order-hotel-btn">Забронировать</a>
+                </div>
+                <div class="hotels-right-block">
+                    <div class="rating">
+                        <img src="img/sedona-rating-stars" width="20" height="20">
+                    </div>
+                    <span class="total-hotel-rating">Рейтинг 8.5</span>
+                </div>
+            </div>
+            <div class="hotels-block-two">
+                <div class="hotels-block-left">
+                    <img src="img/sedona-sort-png" width="20" height="20">
+                </div>
+                <div class="hotels-middle-block">
+                    <h2 class="hotel-two-title">DESERT QUAIL INN</h2>
+                    <span class="hotels-description">Мотель</span>
+                    <span class="hotels-price">От 2000 р.</span>
+                    <a class="about-hotel-btn">Подробнее</a>
+                    <a class="order-hotel-btn">Забронировать</a>
+                </div>
+                <div class="hotels-right-block">
+                    <div class="rating">
+                        <img src="img/sedona-rating-stars" width="20" height="20">
+                    </div>
+                    <span class="total-hotel-rating">Рейтинг 8.9</span>
+                </div>
+            </div>
+            <div class="hotels-block-three">
+                <div class="hotels-block-left">
+                    <img src="img/sedona-sort-png" width="20" height="20">
+                </div>
+                <div class="hotels-middle-block">
+                    <h2 class="hotel-three-title">VILLAS AT POCO DIABLO</h2>
+                    <span class="hotels-description">Апартаменты</span>
+                    <span class="hotels-price">От 4000 р.</span>
+                    <a class="about-hotel-btn">Подробнее</a>
+                    <a class="order-hotel-btn">Забронировать</a>
+                </div>
+                <div class="hotels-right-block">
+                    <div class="rating">
+                        <img src="img/sedona-rating-stars" width="20" height="20">
+                    </div>
+                    <span class="total-hotel-rating">Рейтинг 9.2</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <section class="footer-hashtags">
+                <p>#VISITSEDONA</p>
+            </section>
+            <section class="footer-social">
+                <a class="social-btn social-btn-vk" href="#">Твиттер</a>
+                <a class="social-btn social-btn-twitter" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+            </section>
+            <section class="footer-copyright">
+                <p>Website by</p>
+                <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
