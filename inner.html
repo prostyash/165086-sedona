@@ -9,10 +9,18 @@
         <div class="container">
             <nav class="main-navigation">
                 <ul>
-                    <li> <a href="#">Информация</a> </li>
-                    <li> <a href="#">Фото и видео</a> </li>
-                    <li> <a href="#">Карта штата</a> </li>
-                    <li> <a href="#">Гостиницы</a> </li>
+                    <li> 
+                        <a href="#">Информация</a> 
+                    </li>
+                    <li> 
+                        <a href="#">Фото и видео</a> 
+                    </li>
+                    <li> 
+                        <a href="#">Карта штата</a> 
+                    </li>
+                    <li> 
+                        <a href="#">Гостиницы</a> 
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -20,7 +28,7 @@
     <main class="container">
         <div class="filter-items">
             <div class="filter-items-left">
-                <h2 class="filter-item-left-title">Инфраструктура</h2>
+                <h3 class="filter-item-left-title">Инфраструктура</h3>
                 <label>
                     <input type="checkbox" checked name="swimming-pool">Бассейн
                 </label>
@@ -44,8 +52,17 @@
             <div class="filter-items-right">
                 <h2 class="filter-items-right-title">Стоимость в сутки(P)</h2>
                 <div class="filterline-average">
-                    <div class="filter-average-from">От 0</div>
-                    <div class="filter-average-to">До 3000</div>
+                    <div class="filter-average-from">
+                        <label>
+                            От 0
+                            <input type="number" value="0">
+                        </label>
+                    </div>
+                    <div class="filter-average-to">
+                        <label>
+                            До 3000
+                            <input type="number" value="3000">
+                    </div>
                 </div>
                 <div class="filterline-items">
                     <div class="filterline">
@@ -68,9 +85,17 @@
             <a href="#">По рейтингу</a>
             <div class="hotels-items">
                 <div class="sort-icons">
-                    <img src="img/sedona-sort-png" width="20" height="20">
-                </div>
-            </div>
+                    <div class="sort-item-down">
+                        <a href="#">
+                            <img src="img/sedona-sort-png" width="20" height="20">
+                        </a>
+                    </div>
+                    <div class="sort-item-up">
+                        <a href="#">
+                            <img src="img/sedona-sort-png" width="20" height="20">
+                        </a>
+                    </div>
+                 </div>
             <div class="hotels-block-one">
                 <div class="hotels-block-left">
                     <img src="img/sedona-sort-png" width="20" height="20">
@@ -84,14 +109,27 @@
                 </div>
                 <div class="hotels-right-block">
                     <div class="rating">
-                        <img src="img/sedona-rating-stars" width="20" height="20">
+                        <ul class="stars-rating">
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                        </ul>
                     </div>
                     <span class="total-hotel-rating">Рейтинг 8.5</span>
                 </div>
             </div>
             <div class="hotels-block-two">
                 <div class="hotels-block-left">
-                    <img src="img/sedona-sort-png" width="20" height="20">
+                     <img src="img/sedona-sort-png" width="20" height="20">
                 </div>
                 <div class="hotels-middle-block">
                     <h2 class="hotel-two-title">DESERT QUAIL INN</h2>
@@ -102,7 +140,14 @@
                 </div>
                 <div class="hotels-right-block">
                     <div class="rating">
-                        <img src="img/sedona-rating-stars" width="20" height="20">
+                         <ul class="stars-rating">
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                          </ul>
                     </div>
                     <span class="total-hotel-rating">Рейтинг 8.9</span>
                 </div>
@@ -120,7 +165,17 @@
                 </div>
                 <div class="hotels-right-block">
                     <div class="rating">
-                        <img src="img/sedona-rating-stars" width="20" height="20">
+                         <ul class="stars-rating">
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                            <li>
+                                <img src="img/sedona-rating-stars" width="20" height="20">
+                            </li>
+                        </ul>
                     </div>
                     <span class="total-hotel-rating">Рейтинг 9.2</span>
                 </div>
