@@ -1,0 +1,43 @@
+body {
+	font-family:"PT Sans", "Helvetica", "Arial", "sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #444444;
+	min-width: 1202px;
+	min-height: 936px;
+}
+
+body {
+	background-size: 1200px auto;
+	font-family: "PT Sans Narrow", "Helvetica", "Arial", "sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #fdfaf7;
+	
+}
+
+
+h3 {
+	font-weight: bold;
+	color:#000000;
+}
+
+.sedona-welcome {
+	width: 100%;
+/*	height: auto;*/
+}
+
+  .container {
+	width: 1203px;
+	border: solid purple;
+	margin: 0 auto;
+  	padding: 0 10px;
+}
+
+.filter-items {
+	width: 1056px;
+	outline: solid red;
+	margin: 0 auto;
+	position: relative;
+}
