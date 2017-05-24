@@ -1,0 +1,89 @@
+body {
+	font-family:"PT Sans", "Helvetica", "Arial", "sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #444444;
+}
+body {
+	width:   768px;
+	height: 2762px;
+	margin: 0 auto;
+}
+
+
+h3 {
+	font-weight: bold;
+	color:#000000;
+}
+
+.sedona-welcome {
+	width: 100%;
+	height: auto;
+}
+
+.main-header {
+	outline: solid yellow;
+	height: 56px;
+}
+
+.main-header .container {
+	width: 768px;
+	outline: solid red;
+	padding: 1px;
+	background: rgba(0, 0, 0, 0.1);
+	border: 5px solid pink;
+}
+.sedona-items {
+	list-style-type:none;
+}
+
+.main-navigation > ul > li {
+	display: inline;
+	margin-top:20px; 
+}
+.main-navigation > ul > li:nth-child(1) {
+	margin-right: 61px;
+}
+.main-navigation > ul > li:nth-child(2) {
+	margin-right: 182px;
+}
+.main-navigation > ul > li:nth-child(3) {
+	margin-right:61px;
+}
+.main-navigation > ul > li:nth-child(4) {
+	margin-right:56px;
+}
+
+.main .container {
+	width:  768px;
+	height: 2588px;
+}
+
+
+.feature-item {
+height:454px; 
+width: 768px;
+outline:solid green;
+}
+
+.sedona-welcome {
+width:768px;
+height:523px;
+outline:solid yellow;
+}
+
+.sedona-upperground {
+	outline:blue;
+	width:768px;
+}
+
+.features-fact-one {
+	width: 768px;
+	height: 256px;
+
+}
+
+.features-fact-left {
+	float: left;
+}
