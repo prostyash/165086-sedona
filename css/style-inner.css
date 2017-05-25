@@ -40,4 +40,87 @@ h3 {
 	outline: solid red;
 	margin: 0 auto;
 	position: relative;
+	height: 219px;
+}
+
+
+.main-header {
+	outline: solid yellow;
+}
+
+.main-header .container {
+	width: 768px;
+	outline: solid red;
+	padding: 1px;
+	background: rgba(0, 0, 0, 0.1);
+	border: 5px solid pink;
+}
+.sedona-items {
+	list-style-type:none;
+}
+
+.main-navigation > ul > li {
+	display: inline;
+	margin-top:20px; 
+}
+.main-navigation > ul > li:nth-child(1) {
+	margin-right: 61px;
+}
+.main-navigation > ul > li:nth-child(2) {
+	margin-right: 182px;
+}
+.main-navigation > ul > li:nth-child(3) {
+	margin-right:61px;
+}
+.main-navigation > ul > li:nth-child(4) {
+	margin-right:56px;
+}
+
+.main .container {
+	width:  768px;
+	height: 2588px;
+}
+
+.main .container {
+	width:  768px;
+	height: 2588px;
+}
+
+.filter-items-left {
+	display: inline-block;
+	outline:solid green;
+	margin-top:32px;
+}
+
+.clearfix::after {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+.filter-items-right {
+	margin-right:75px;
+	display: inline-block;
+}
+
+.filter-items-lefter {
+	margin-right:75px;
+	display: inline-block;
+	outline: solid yellow;
+}
+
+.filter-item-left-title {
+	margin-bottom: 30px;
+}
+
+.items-checkbox {
+	margin-bottom: 24px;
+}
+
+label .swimming-pool {
+	margin-bottom: 24px;
+}
+
+.swimming-pool {
+	float:left;
 }
