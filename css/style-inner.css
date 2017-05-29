@@ -4,8 +4,8 @@ body {
 	font-weight: bold;
 	line-height: 150%;
 	color: #444444;
-	min-width: 1202px;
-	min-height: 936px;
+	min-width: 968px;
+	min-height: 933px;
 }
 
 body {
@@ -31,8 +31,8 @@ h3 {
   .container {
 	width: 1203px;
 	border: solid purple;
-	margin: 0 auto;
-  	padding: 0 10px;
+	margin-left: 46px;
+  	/*padding: 0 10px;*/
 }
 
 .filter-items {
@@ -41,6 +41,7 @@ h3 {
 	margin: 0 auto;
 	position: relative;
 	height: 219px;
+	margin: 0 auto;
 }
 
 
@@ -54,6 +55,7 @@ h3 {
 	padding: 1px;
 	background: rgba(0, 0, 0, 0.1);
 	border: 5px solid pink;
+	margin-left: 88px;
 }
 .sedona-items {
 	list-style-type:none;
@@ -87,9 +89,12 @@ h3 {
 }
 
 .filter-items-left {
+	vertical-align: top;
 	display: inline-block;
 	outline:solid green;
 	margin-top:32px;
+	margin-right: 100px;
+	height: 185px;
 }
 
 .clearfix::after {
@@ -104,9 +109,11 @@ h3 {
 }
 
 .filter-items-lefter {
-	margin-right:75px;
+	vertical-align: top;
+	margin-right: 75px;
 	display: inline-block;
 	outline: solid yellow;
+	margin-top:32px;
 }
 
 .filter-item-left-title {
@@ -123,4 +130,8 @@ label .swimming-pool {
 
 .swimming-pool {
 	float:left;
+}
+
+.hotels-types-filters {
+	outline: solid green;
 }
