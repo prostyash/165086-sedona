@@ -31,17 +31,15 @@ h3 {
   .container {
 	width: 1203px;
 	border: solid purple;
-	margin-left: 46px;
   	/*padding: 0 10px;*/
 }
 
 .filter-items {
 	width: 1056px;
 	outline: solid red;
-	margin: 0 auto;
+	margin-left: 46px;
 	position: relative;
 	height: 219px;
-	margin: 0 auto;
 }
 
 
@@ -55,7 +53,6 @@ h3 {
 	padding: 1px;
 	background: rgba(0, 0, 0, 0.1);
 	border: 5px solid pink;
-	margin-left: 88px;
 }
 .sedona-items {
 	list-style-type:none;
@@ -134,4 +131,8 @@ label .swimming-pool {
 
 .hotels-types-filters {
 	outline: solid green;
+}
+.hotels-types-content {
+	outline:solid purple;
+	margin-left:46px; 
 }
