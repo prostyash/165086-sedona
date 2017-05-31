@@ -29,34 +29,31 @@ h3 {
 }
 
   .container {
-	width: 1203px;
+	width: 768px;
 	border: solid purple;
 	margin: 0 auto;
   	/*padding: 0 10px;*/
 }
 
 .filter-items {
-	width: 780px;
+	width: 722px;
 	outline: solid red;
-	margin-left: 46px;
 	position: relative;
 	height: 219px;
+	padding-left: 46px;
 }
 
 
 .main-header {
 	outline: solid yellow;
-	width: 1203px;
+	width: 768px;
 	margin:0 auto;
 }
 
 .main-header .container {
 	width: 768px;
 	outline: solid red;
-	padding: 1px;
 	background: rgba(0, 0, 0, 0.1);
-	border: 5px solid pink;
-	margin-left: 46px;
 }
 .sedona-items {
 	list-style-type:none;
@@ -68,6 +65,7 @@ h3 {
 }
 .main-navigation > ul > li:nth-child(1) {
 	margin-right: 61px;
+	margin-left: 10px;
 }
 .main-navigation > ul > li:nth-child(2) {
 	margin-right: 182px;
@@ -81,7 +79,7 @@ h3 {
 
 .main .container {
 	margin: 0 auto;
-	width:  768px;
+	width:  100%;
 	height: 2588px;
 }
 
@@ -101,8 +99,9 @@ h3 {
 }
 
 .filter-items-right {
-	margin-right:75px;
 	display: inline-block;
+	outline: solid green;
+	margin-top: 32px;
 }
 
 .filter-items-lefter {
@@ -142,5 +141,54 @@ label .swimming-pool {
 }
 
 .hotels-types-content > h3, h2 {
+	display: inline-block;
+}
+.found-title {
+	margin-right: 49px;
+}
+
+.hotels-sort {
+	margin-right: 40px;
+}
+
+.hotels-types-content > a {
+	margin-right: 40px;
+	margin-top:36px;
+	margin-bottom: 36px;
+}
+
+.hotels-middle-block {
+	outline: solid yellow;
+}
+
+
+.hotels-content {
+	margin-left: 46px;
+	outline: solid gray;
+}
+
+.hotels-middle-block {
+	width: 276px;
+	height: 93px;
+}
+
+.hotels-block-left {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 32px;
+	margin-right: 32px;	
+}
+
+.hotels-middle-block {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 32px;
+}
+
+.hotels-middle-block > h2 {
+	display: inline-block;
+}
+
+.hotels-description {
 	display: inline-block;
 }
