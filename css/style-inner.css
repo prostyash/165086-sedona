@@ -39,6 +39,7 @@ h3 {
 	width: 722px;
 	outline: solid red;
 	position: relative;
+<<<<<<< HEAD
 	height: 219px;
 	padding-left: 46px;
 }
@@ -190,5 +191,10 @@ label .swimming-pool {
 }
 
 .hotels-description {
+=======
+}
+
+.hotels-types-filters > a {
+>>>>>>> e4efcc9... css fixes
 	display: inline-block;
 }
