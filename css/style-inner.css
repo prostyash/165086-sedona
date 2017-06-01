@@ -41,3 +41,7 @@ h3 {
 	margin: 0 auto;
 	position: relative;
 }
+
+.hotels-types-filters > a {
+	display: inline-block;
+}
