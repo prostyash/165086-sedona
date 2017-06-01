@@ -35,15 +35,6 @@ h3 {
   	/*padding: 0 10px;*/
 }
 
-.filter-items {
-	width: 722px;
-	outline: solid red;
-	position: relative;
-<<<<<<< HEAD
-	height: 219px;
-	padding-left: 46px;
-}
-
 
 .main-header {
 	outline: solid yellow;
@@ -147,7 +138,6 @@ label .swimming-pool {
 .found-title {
 	margin-right: 49px;
 }
-
 .hotels-sort {
 	margin-right: 40px;
 }
@@ -187,14 +177,5 @@ label .swimming-pool {
 }
 
 .hotels-middle-block > h2 {
-	display: inline-block;
-}
-
-.hotels-description {
-=======
-}
-
-.hotels-types-filters > a {
->>>>>>> e4efcc9... css fixes
 	display: inline-block;
 }
