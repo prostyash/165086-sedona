@@ -6,15 +6,11 @@ body {
 	color: #444444;
 	min-width: 968px;
 	min-height: 933px;
-}
-
-body {
 	background-size: 1200px auto;
-	font-family: "PT Sans Narrow", "Helvetica", "Arial", "sans-serif";
 	font-size: 14px;
 	font-weight: bold;
 	background-color: #fdfaf7;
-	
+	text-transform: uppercase;
 }
 
 
@@ -30,7 +26,6 @@ h3 {
 
   .container {
 	width: 768px;
-	border: solid purple;
 	margin: 0 auto;
   	/*padding: 0 10px;*/
 }
@@ -38,20 +33,64 @@ h3 {
 
 .main-header {
 	background-color: #ffffff; 
-	outline: solid yellow;
 	width: 768px;
 	margin:0 auto;
 }
 
 .main-header .container {
 	width: 768px;
-	outline: solid red;
 }
 .sedona-items {
 	list-style-type:none;
 }
 
-.main-navigation > ul > li {
+.main-navigation ul {
+	margin: 0;
+	padding:0;
+	font-size: 0;
+	list-style-type: none;
+}
+
+.main-navigation a {
+	display: block;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 46px;
+	padding-right: 46px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main-navigation a:hover {
+	color: #81b3d2;
+}
+.main-navigation a:active {
+	color: #b2b2b2;
+}
+
+.main-navigation > ul > li:nth-child(2) > a::after {
+		content: "";
+		position: absolute;
+		width:137px;
+		height: 70px;
+		background: url("../img/logo_right.png");
+		top:2px;
+		z-index: 3;
+	}
+
+.main-navigation > ul > li:nth-child(2) > a {
+	padding-right: 86px;
+}
+
+
+/*.main-navigation > ul > li {
 	display: inline;
 	margin-top:20px; 
 }
@@ -68,25 +107,46 @@ h3 {
 .main-navigation > ul > li:nth-child(4) {
 	margin-right:56px;
 }
-
+*/
 .main .container {
 	margin: 0 auto;
 	width:  100%;
 	height: 2588px;
 }
 
-.filter-items {
+.background-img {
 	background: #069ecc url("../img/filters_background.jpg") no-repeat center top;
+	height: 221px;
+	display: block;
+  	filter: blur(5px);
+	z-index: 1;
+}
+
+.filter-items {
+	z-index: 2;
+	position: relative;
+
 }
 
 .filter-items-left {
 	vertical-align: top;
 	display: inline-block;
-	outline:solid green;
-	margin-top:32px;
+	margin-top:31px;
 	margin-right: 100px;
 	height: 185px;
 	margin-left: 46px;
+	color:#ffffff;
+}
+
+
+.filter-items > .filter-items-left > h3 {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.filter-item-left-title {
+	font-size: 16px;
+	line-height: 21px;
 }
 
 .clearfix::after {
@@ -97,44 +157,45 @@ h3 {
 
 .filter-items-right {
 	display: inline-block;
-	outline: solid green;
 	margin-top: 32px;
+	color:#ffffff;
 }
 
 .filter-items-lefter {
 	vertical-align: top;
 	margin-right: 75px;
 	display: inline-block;
-	outline: solid yellow;
-	margin-top:32px;
+	margin-top:31px;
+	color:#ffffff;
 }
 
 .filter-item-left-title {
 	margin-bottom: 30px;
+	color:#ffffff;
 }
 
 .items-checkbox {
 	margin-bottom: 24px;
 }
 
-label .swimming-pool {
+/*label .swimming-pool {
 	margin-bottom: 24px;
 }
-
+*/
 .swimming-pool {
 	float:left;
 }
 
-.hotels-types-filters {
-	outline: solid green;
-}
 .hotels-types-content {
-	outline:solid purple;
 	margin-left: 46px; 
 }
 
 .hotels-types-content > a {
 	display: inline-block;
+}
+
+.hotels-types-content > a:hover {
+
 }
 
 .hotels-types-content > h3, h2 {
@@ -145,50 +206,80 @@ label .swimming-pool {
 }
 .hotels-sort {
 	margin-right: 40px;
+	font-size: 12px;
+	line-height: 18px;
 }
 
+
+
+.found-title {
+	line-height: 26px;
+	font-size: 21px;
+}
 .hotels-types-content > a {
 	margin-right: 40px;
 	margin-top:36px;
 	margin-bottom: 36px;
+	line-height: 12px;
+	font-size: 18px;
+	color: #b2b2b2;
+	text-decoration: none;
+	border-bottom:  2px dashed;
+	padding-bottom: 3px;
 }
 
+.hotels-types-content > a:hover {
+	color: #81b3d2;
+}
+
+.hotels-types-content > a:active {
+	color: #222222;
+	border-bottom:none;
+}
 .hotels-middle-block {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 32px;
-	outline: solid yellow;
 	width: 276px;
-	height: 93px;
+	height: 151px;
 }
 
+.hotels-description {
+	margin-top: 19px;
+	margin-right: 39px;
+}
 
 .hotels-content {
 	margin-left: 46px;
-	outline: solid gray;
 }
-
 .hotels-block-left {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 32px;
 	margin-right: 32px;	
 }
+
 .hotels-middle-block > h2 {
 	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
 }
-
 
 .stars-rating {
 	margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
 }
-
 .stars-rating > li {
 	display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
-    outline: solid red; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
+}
+.hotels-block-three > .hotels-right-block > .rating > .stars-rating {
+	margin-left: 55px;
+}
+
+.hotels-block-two > .hotels-right-block > .rating > .stars-rating {
+	margin-left: 30px;
 }
 
 .hotels-right-block {
@@ -203,6 +294,442 @@ label .swimming-pool {
 }
 
 .total-hotel-rating {
-	position: relative;
-	top: 50px;
+	margin-top: 54px;
 }
+
+.about-hotel-btn {
+	margin-top: 20px;
+}
+
+#button-details {
+	display: inline-block;
+	padding: 0px;
+	left: 1px;
+	position: relative;
+	outline: none;
+	border: 0px;
+	background-color: #81b3d2;
+	width: 113px;
+	height: 25px;
+	top:20px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family:"PT Sans", "Helvetica", "Arial", "sans-serif";
+	font-weight: bold;
+
+}
+
+#button-order {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 0px;
+	left: 9px;
+	position: relative;
+	outline: none;
+	border: 0px;
+	background-color: #766357;
+	width: 143px;
+	height: 25px;
+	top:20px;
+	font-size: 14px;
+	font-family:"PT Sans", "Helvetica", "Arial", "sans-serif";
+	font-weight: bold;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.total-hotel-rating {
+	margin-right: 46px;
+	display: inline-block;
+	margin-top:48px;
+	background-color: #f2f2f2;
+	width: 112px;
+	height: 27px;
+	padding-top: 6px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.hotel-title {
+	margin-right: 11px;
+}
+
+.hotel-title:hover {
+	color: #81b3d2;
+}
+
+.hotel-title:active {
+	color:#cacaca;
+}
+
+.social-btn {
+    background-repeat: no-repeat;
+    background-color: #81b3d2;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    width: 45px;
+    height: 48px;
+    margin-right: 5px;
+}
+
+.social-btn:hover {
+	background-color: #669ec0;
+}
+
+
+.social-btn:active {
+	background-color: #5496bd;
+}
+
+.social-btn::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	background-image: url("../img/spritesheets.png");
+	background-repeat: no-repeat;
+}
+
+/*.social-btn:active {
+	background-color: #5496bd;
+}
+
+.social-btn:hover {
+	background-color: #669ec0;
+}
+*/
+.social-btn-youtube::before {
+	display: inline-block;
+  	width: 20px;
+    height: 14px;
+    background-position: -10px -10px;
+}
+
+.social-btn-youtube::before:active {
+	background: black;
+}
+
+.sprite-_ {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -44px;
+}
+
+.sprite-_ {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -74px;
+}
+
+.sprite-burger {
+    width: 74px;
+    height: 70px;
+    background-position: -10px -104px;
+}
+
+.social-btn-facebook::before{
+    width: 9px;
+    height: 19px;
+    background-position: -10px -194px;
+}
+
+.social-btn-facebook::before:active {
+		background-color: #5496bd;
+}
+
+
+.sprite-house {
+    width: 75px;
+    height: 72px;
+    background-position: -10px -233px;
+}
+
+.sprite-present {
+    width: 64px;
+    height: 76px;
+    background-position: -10px -325px;
+}
+
+.social-btn-twitter::before {
+	width: 19px;
+    height: 15px;
+    background-position: -10px -421px;
+
+/*.social-btn-twitter:active {
+	opacity: 0.6;
+	backgroun*/d-color: #5496bd;
+}
+
+
+.footer-hashtags {
+	float:left;
+	margin-top: 53px;
+	margin-left: 60px;
+	margin: 0 auto;
+}
+
+.main-footer {
+	width: 774px;
+	height: 119px;
+	background: #fdfefc;
+	margin: 0 auto;
+}
+
+.footer-hashtags p {
+	margin-top: 59px;
+	float: left;
+	margin-right: 112px;
+	margin-left: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 26px;
+	margin-bottom: 53px;
+}
+
+.footer-copyright {
+	display: inline-block;
+	margin-right: 35px;
+	margin-top:42px;
+}
+
+.footer-copyright p {
+	margin-top: 26px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	top:20px;
+	left: 10px;
+}
+
+.btn::before {
+	position: absolute;
+	content: "";
+	background-image: url("../img/html_academy_logo.png");
+	background-color:  #fefefe;
+	width: 140px;
+	height: 42px;
+	background-repeat: no-repeat;
+}
+.footer-social {
+	display: inline-block;
+	margin-top: 59px;
+	margin-right: 85px;
+	vertical-align: top;
+}
+
+
+input[name="items-checkbox"] {
+	display: none;
+	line-height: 21px;
+	position: relative;
+	cursor: pointer;
+/*	margin: 10px 0;*/
+	margin-bottom: 17px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+label {
+	position: relative;
+	display: block;
+	line-height: 21px;
+	margin-bottom: 17px;
+	padding-left: 35px;
+	padding-right: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	cursor: pointer;
+	margin-bottom: 16px;
+}
+
+
+input[name="items-checkbox"] + label::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 3px solid white;
+	border-radius: 6px;	
+}
+
+input[name="items-checkbox"]:checked + label::after {
+	content: "";
+	width: 31px;
+	height: 24px;
+	position: absolute;
+	top: -12px;
+	left: -16px;
+	transform: translate(50%, 50%);
+	background-image: url("../img/galochka.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+input[name="items-checkbox"]:checked + label::after::hover {
+	background-color: 
+}
+
+.filter-range {
+	display: inline-block;
+	margin-top: 31px;
+	vertical-align: top;
+	text-transform: uppercase;
+	width: 227px;
+}
+
+
+.filter-range-title {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 21px;
+
+}
+
+.price-controls {
+	height: 36px;
+	margin-bottom: 20px;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	margin-bottom: 40px;
+	font-size: 0;
+	position: relative;
+
+}
+
+.price-controls > form > label {
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: top;
+	cursor: pointer;
+	line-height: 38px;
+}
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
+.price-controls > form >.min-price,
+.price-controls > form >.max-price {
+  max-width: 100px;
+  padding-left: 31px;
+  color: #ffffff;
+}
+.price-controls input {
+	width: 50px;
+	margin:0;
+	color: inherit;
+	font: inherit;
+	background:none;
+	border: none;
+}
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+
+.range-controls .scale {
+	height: 2px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #ffffff;
+}
+
+.range-toggle {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: -9px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 100%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.show-hostels {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.show-hostels:hover {
+	color: #000000;
+	background: #ffffff;
+  }
+
+  .filter-items::before {
+  	content: "";
+  	background: #069ecc url("../img/filters_background.jpg") no-repeat center top;
+	height: 293px;
+	display: block;
+  	filter: blur(3px);
+  	z-index: -1;
+  	width: 768px;
+  	top: 3px;
+  	position: absolute;
+  }
+
+
+  @keyframes animation-range {
+  	50%{
+  		transform: translateX(40px);
+  }
+
+  90% {
+  	transform: rotate(360deg);
+  }
+  }
+  .range-toggle {
+  	animation-name: animation-range;
+  	animation-duration: 4s;
+  	animation-fill-mode: backwards;
+  }

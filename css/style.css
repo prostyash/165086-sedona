@@ -15,3 +15,121 @@ h3 {
 	width: 100%;
 	height: auto;
 }
+
+body {
+	font-family:"PT Sans", "Helvetica", "Arial", "sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #444444;
+	min-width: 968px;
+	min-height: 933px;
+	background-size: 1200px auto;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #fdfaf7;
+	text-transform: uppercase;
+}
+
+
+h3 {
+	font-weight: bold;
+	color:#000000;
+}
+
+.sedona-welcome {
+	width: 100%;
+/*	height: auto;*/
+}
+
+  .container {
+	width: 768px;
+	margin: 0 auto;
+  	/*padding: 0 10px;*/
+}
+
+
+.main-header {
+	background-color: #ffffff; 
+	width: 768px;
+	margin:0 auto;
+}
+
+.main-header .container {
+	width: 768px;
+}
+.sedona-items {
+	list-style-type:none;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding:0;
+	font-size: 0;
+	list-style-type: none;
+}
+
+.main-navigation a {
+	display: block;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 46px;
+	padding-right: 46px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main-navigation a:hover {
+	color: #81b3d2;
+}
+.main-navigation a:active {
+	color: #b2b2b2;
+}
+
+.main-navigation > ul > li:nth-child(2) > a::after{
+		content: "";
+		position: absolute;
+		width:137px;
+		height: 70px;
+		background: url("../img/logo_right.png");
+		top:2px;
+	}
+
+
+.main-navigation > ul > li:nth-child(2) > a {
+	padding-right: 86px;
+}
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main-navigation a:hover {
+	color: #81b3d2;
+}
+.main-navigation a:active {
+	color: #b2b2b2;
+}
+
+.main-navigation > ul > li:nth-child(2) > a::after{
+		content: "";
+		position: absolute;
+		width:137px;
+		height: 70px;
+		background: url("../img/logo_right.png");
+		top:2px;
+	}
+
+
+.main-navigation > ul > li:nth-child(2) > a {
+	padding-right: 86px;
+}
